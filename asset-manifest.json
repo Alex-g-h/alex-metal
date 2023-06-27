@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/alex-metal/static/css/main.073c9b0a.css",
-    "main.js": "/alex-metal/static/js/main.f92db9c2.js",
+    "main.css": "/alex-metal/static/css/main.87160add.css",
+    "main.js": "/alex-metal/static/js/main.f8d4862c.js",
     "static/js/787.74fd1089.chunk.js": "/alex-metal/static/js/787.74fd1089.chunk.js",
+    "static/media/4-achievements.jpg": "/alex-metal/static/media/4-achievements.df735db1bd8eeb67ae7d.jpg",
+    "static/media/2-actions.jpg": "/alex-metal/static/media/2-actions.9b7268f854d335179159.jpg",
+    "static/media/6-partners.jpg": "/alex-metal/static/media/6-partners.9f8d1991e3d2d0cbbb4d.jpg",
+    "static/media/1-company.jpg": "/alex-metal/static/media/1-company.f34180fc38cc9b8ef66d.jpg",
+    "static/media/3-info.jpg": "/alex-metal/static/media/3-info.af71b1139b609d5d89be.jpg",
     "index.html": "/alex-metal/index.html",
-    "main.073c9b0a.css.map": "/alex-metal/static/css/main.073c9b0a.css.map",
-    "main.f92db9c2.js.map": "/alex-metal/static/js/main.f92db9c2.js.map",
+    "main.87160add.css.map": "/alex-metal/static/css/main.87160add.css.map",
+    "main.f8d4862c.js.map": "/alex-metal/static/js/main.f8d4862c.js.map",
     "787.74fd1089.chunk.js.map": "/alex-metal/static/js/787.74fd1089.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.f92db9c2.js"
+    "static/css/main.87160add.css",
+    "static/js/main.f8d4862c.js"
   ]
 }
