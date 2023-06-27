@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/alex-metal/static/css/main.073c9b0a.css",
+    "main.js": "/alex-metal/static/js/main.f92db9c2.js",
+    "static/js/787.74fd1089.chunk.js": "/alex-metal/static/js/787.74fd1089.chunk.js",
+    "index.html": "/alex-metal/index.html",
+    "main.073c9b0a.css.map": "/alex-metal/static/css/main.073c9b0a.css.map",
+    "main.f92db9c2.js.map": "/alex-metal/static/js/main.f92db9c2.js.map",
+    "787.74fd1089.chunk.js.map": "/alex-metal/static/js/787.74fd1089.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f92db9c2.js"
+  ]
+}
