@@ -1,0 +1,285 @@
+/*------------⚞	header	⚟------------*/
+
+header {
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+}
+
+header>video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+
+@media only screen and (min-width: 1921px) {
+  header>video {
+    width: 100%;
+    display: block;
+  }
+}
+
+header:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background: #1A2A42;
+  opacity: 0.65;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  z-index: 2;
+  text-transform: uppercase;
+  padding: 50px;
+  position: absolute;
+  width: 100%;
+
+}
+
+.header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header a span {
+  transition: border-color 0.5s ease;
+}
+
+.header a:hover {
+  text-decoration: none;
+}
+
+.header a:hover span {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.header a:active span {
+  border-color: #1488CA;
+}
+
+.header_left {}
+
+.header_nav {
+  display: flex;
+  letter-spacing: 3px;
+}
+
+.header_menu {
+  position: relative;
+  height: 36px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  padding-left: 60px;
+  width: 116px;
+  font-weight: lighter;
+}
+
+.header_menu:before,
+.header_menu:after {
+  position: absolute;
+  height: 4px;
+  left: 0;
+  background: #fff;
+  content: '';
+  display: block;
+  transition: width 0.5s ease;
+}
+
+.header_menu:before {
+  width: 36px;
+  top: 10px;
+}
+
+.header_menu:after {
+  width: 20px;
+  bottom: 10px;
+}
+
+.header_menu:hover:before {
+  width: 29px;
+}
+
+.header_menu:hover:after {
+  width: 36px;
+}
+
+.header_login {
+  margin-left: 76px;
+}
+
+.header_login a {
+  height: 36px;
+  display: flex;
+  padding-left: 48px;
+  align-items: center;
+  /* background: url(../../../../../../local/templates/imgmet/img/ico_login.svg) center left no-repeat; */
+}
+
+.header_town {
+  margin-left: 68px;
+  font-weight: lighter;
+}
+
+.header_town a {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 30px;
+  /* background: url(../../../../../../local/templates/imgmet/img/ico_location.svg) top 6px left no-repeat; */
+}
+
+.header_town a span {
+  position: relative;
+}
+
+.header_town a span:after {
+  /* background: url(../../../../../../local/templates/imgmet/img/ico_location_arrow.svg) center right no-repeat; */
+  position: absolute;
+  right: -30px;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+  content: '';
+  display: block;
+}
+
+.header_town a span:hover:before {
+  position: absolute;
+  top: 20px;
+  height: 1px;
+  width: 100%;
+  content: '';
+  display: block;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header_town a span:active:before {
+  background-color: #1488CA;
+}
+
+.header_desc {
+  opacity: 0.6;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 9px;
+  text-transform: initial;
+}
+
+.header_right {
+  text-transform: uppercase;
+  display: flex;
+}
+
+.header_phone {
+  text-align: right;
+  margin-left: 70px;
+  font-weight: lighter;
+}
+
+.header_phone:first-child {
+  margin-left: 0;
+}
+
+.header_phone div {
+  font-size: 14px;
+  margin-bottom: 14px;
+  letter-spacing: 2px;
+  line-height: 14px;
+}
+
+.header_phone a {
+  font-size: 24px;
+}
+
+.header_phone a span:hover:before {
+  position: absolute;
+  bottom: 48px;
+  height: 1px;
+  width: 240px;
+  content: '';
+  display: block;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header_phone a span:active:before {
+  background-color: #1488CA;
+}
+
+.header_logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 37px;
+  z-index: 0;
+  margin: auto;
+  width: 51px;
+  height: 88px;
+  z-index: 5;
+  /* background: url(../../../../../../local/templates/imgmet/img/header-logo.svg) center no-repeat; */
+}
+
+.main_logo {
+  position: absolute;
+  top: -20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 918px;
+  height: 326px;
+  color: #fff;
+  display: flex;
+  z-index: 3;
+  align-items: center;
+}
+
+.main_logo_img {
+  /* background: url(../../../../../../local/templates/imgmet/img/main_logo.svg); */
+  width: 187px;
+  height: 326px;
+}
+
+.main_logo_text {
+  padding-left: 93px;
+}
+
+.main_logo_b {
+  /* font-family: 'GothamProBold'; */
+  font-size: 73px;
+  font-weight: 500;
+  line-height: 80px;
+  margin-bottom: 35px;
+  position: relative;
+  top: -5px;
+}
+
+.main_logo_s {
+  font-size: 24px;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.header_down {
+  /* background: url(../../../../../../local/templates/imgmet/img/ico_down.png); */
+  width: 20px;
+  height: 32px;
+  position: absolute;
+  z-index: 2;
+  bottom: 50px;
+  right: 50px;
+}

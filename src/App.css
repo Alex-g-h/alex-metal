@@ -1,3 +1,5 @@
+@import "./app/css/main.css";
+
 :root {
   --bg-color: #4F92C4;
 
@@ -71,7 +73,7 @@
 .company-background {
   height: 550px;
   max-height: 100%; 
-  background-image: url("./assets/images/backgrounds/1-company.jpg");
+  /* background-image: url("./assets/images/backgrounds/1-company.jpg"); */
   background-position: center;
   background-repeat: repeat-y;
   background-size: cover;
@@ -162,7 +164,7 @@
 .footer-background {
   height: auto;
   max-height: 100%;
-  /* background-image: url("./assets/images/backgrounds/4-achievements.jpg"); */
+  background-image: url("./assets/images/backgrounds/7-footer.jpg");
   background-position: center;
   background-repeat: repeat-y;
   background-size: cover;
