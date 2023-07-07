@@ -1,0 +1,37 @@
+:root {
+  --width: 200px;
+}
+
+.achievements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.achievement {
+  margin: 20 25;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.achievement-icon {
+  width: var(--width);
+}
+
+.achievement-icon :hover {
+  font-size: 1.5em;
+}
+
+.achievement-text {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  overflow-wrap: break-word;
+  width: var(--width);
+}
