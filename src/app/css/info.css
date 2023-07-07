@@ -1,0 +1,32 @@
+.main_about {
+  background: url("../../assets/images/backgrounds/3-info.jpg") center / cover no-repeat;
+  text-align: center;
+  height: 687px;
+  padding-top: 42px;
+}
+
+.main_about_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.main_about_title {
+  /* font-family: 'GothamProBold'; */
+  font-size: 24px;
+  font-weight: 700;
+  /* margin: 0 0 34px; */
+  margin: 0 0 14px;
+}
+
+.main_about_text {
+  font-size: 18px;
+  line-height: 34px;
+  margin-bottom: 0.2em;
+}
+
+.text_shadow {
+  color: white;
+  /* background-color: white; */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
