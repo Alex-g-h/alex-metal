@@ -1,5 +1,3 @@
-/*------------⚞	header	⚟------------*/
-
 header {
   height: 1080px;
   position: relative;
@@ -248,13 +246,13 @@ header:after {
 }
 
 .main_logo_img {
-  /* background: url(../../../../../../local/templates/imgmet/img/main_logo.svg); */
-  width: 187px;
-  height: 326px;
+  background: url("../../assets/logos/company/8347700-ai_cut.png");
+  width: 300px;
+  height: 300px;
 }
 
 .main_logo_text {
-  padding-left: 93px;
+  padding-left: 23px;
 }
 
 .main_logo_b {
@@ -265,6 +263,7 @@ header:after {
   margin-bottom: 35px;
   position: relative;
   top: -5px;
+  text-align: start;
 }
 
 .main_logo_s {

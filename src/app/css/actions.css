@@ -1,0 +1,43 @@
+.main_wedo {
+  padding: 100px 0 70px;
+}
+
+.main_wedo_row {
+  display: flex;
+  margin: 0 -33px;
+}
+
+.main_wedo_item {
+  width: 33.33%;
+  text-align: center;
+  padding: 0 33px;
+}
+
+.main_wedo_img {
+  border-radius: 24px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 170px;
+  margin-bottom: 24px;
+}
+
+.main_wedo_img img {
+  border-radius: 24px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 170px;
+  margin-bottom: 24px;
+}
+
+.main_wedo_title {
+  /* font-family: 'GothamProBold'; */
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 9px;
+}
+
+.main_wedo_text {
+  font-size: 16px;
+}

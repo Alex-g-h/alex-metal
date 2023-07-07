@@ -29,6 +29,12 @@
 
 }
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Verdana,
+      Arial,
+      Helvetica,
+      sans-serif;
+}
 
 .App {
   text-align: center;
@@ -84,7 +90,7 @@
 .action-background {
   height: auto;
   max-height: 100%;
-  background-image: url("./assets/images/backgrounds/2-actions.jpg");
+  background-image: url("./assets/images/backgrounds/2-actions-1.jpg");
   background-position: center;
   background-repeat: repeat-y;
   background-size: cover;
