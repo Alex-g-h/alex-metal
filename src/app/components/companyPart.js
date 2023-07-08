@@ -1,24 +1,12 @@
-import React, { useEffect, useRef } from "react";
-//import { ReactComponent as CompanyLogo } from "../../assets/logos/company/8347700-ai.svg";
+import React, { useRef } from "react";
 import headerVideo from "../../assets/video/office.mp4";
 
 const CompanyPart = () => {
   const isMuted = useRef(true);
 
-  // useEffect(() => {
-  // isMuted.current.defaultMuted = true;
-  // });
-
   return (
     // <div className="company-background">
     <div>
-      {/* <CompanyLogo /> */}
-      {/* <img
-        className="company-logo"
-        src={require("../../assets/logos/company/8347700-ai_cut.png")}
-        alt=""
-        width="150px"
-      /> */}
       <div className="main-screen">
         <header>
           <a
@@ -57,19 +45,11 @@ const CompanyPart = () => {
             // muted={true}
             autoPlay
             loop
-            // src="../../assets/video/header_fhd.mp4"
-            // poster="video/header_hd.jpg"
           >
             <source
               src={headerVideo}
-              // src="../../assets/video/header_fhd.mp4"
-              // src="https://drive.google.com/file/d/1vm52ZqyBs53ga6OL0DCFg1nCrierbYrX/view"
               type="video/mp4"
             />
-            {/* <source
-              src="../../assets/video/Untitled.webm"
-              type="video/webm"
-            ></source> */}
           </video>
         </header>
       </div>

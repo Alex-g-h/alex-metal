@@ -55,6 +55,7 @@ footer .container {
 .footer_logo_text {
   margin-top: 6px;
   line-height: 26px;
+  color: #fff;
 }
 
 .footer_logo p {
@@ -130,7 +131,7 @@ footer .container {
 
 .footer_nav nav ul ul li a {
   font-size: 16px;
-  color: #8c94a0;
+  /* color: #8c94a0; */
   display: inline-block;
   align-items: center;
 }
