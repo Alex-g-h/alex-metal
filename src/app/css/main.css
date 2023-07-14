@@ -3,6 +3,7 @@
 @import "./actions.css";
 @import "./info.css";
 @import "./achievements.css";
+@import "./products.css";
 
 *,
 ::after,
@@ -340,12 +341,6 @@ html {
   box-sizing: border-box;
 }
 
-*,
-::after,
-::before {
-  box-sizing: inherit
-}
-
 .container {
   width: 100%;
   padding-right: 15px;
@@ -377,7 +372,7 @@ html {
     max-width: 1140px
   }
 }
-
+  
 /*------------⚞	media 1600	⚟------------*/
 
 @media all and (max-width:1600px) {
