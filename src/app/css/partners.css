@@ -1,0 +1,34 @@
+.partners {
+  padding: 125px 0 100px;
+}
+
+.partners__text {
+  text-align: left;
+  font-size: 2.5em;
+  color: #fafafa;
+  margin-left: 1em;
+  text-transform: uppercase;
+}
+
+.partners__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1em auto;
+}
+
+.partner {
+  display: flex;
+  align-items: center;
+}
+
+.partner__img {
+  height: 100px;
+  margin: 1em;
+}
+
+.partner__img--wide {
+  width: 170px;
+  height: auto;
+}
