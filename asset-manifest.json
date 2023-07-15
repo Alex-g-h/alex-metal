@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/alex-metal/static/css/main.d36e45fe.css",
-    "main.js": "/alex-metal/static/js/main.67b9c99b.js",
+    "main.css": "/alex-metal/static/css/main.919ef90a.css",
+    "main.js": "/alex-metal/static/js/main.ba96fd09.js",
     "static/js/787.74fd1089.chunk.js": "/alex-metal/static/js/787.74fd1089.chunk.js",
     "static/media/office.mp4": "/alex-metal/static/media/office.652ce355a723c0119b4d.mp4",
     "static/media/4-achievements.jpg": "/alex-metal/static/media/4-achievements.df735db1bd8eeb67ae7d.jpg",
     "static/media/5-products-2.jpg": "/alex-metal/static/media/5-products-2.78aec65c38163bc90e08.jpg",
     "static/media/2-actions-1.jpg": "/alex-metal/static/media/2-actions-1.9b7268f854d335179159.jpg",
+    "static/media/6-partners.jpg": "/alex-metal/static/media/6-partners.e24d479ce214322d6abe.jpg",
     "static/media/2-actions-2.jpg": "/alex-metal/static/media/2-actions-2.58214d6e341fea031556.jpg",
     "static/media/5-products-3.jpg": "/alex-metal/static/media/5-products-3.424957e904e1ebd4be2a.jpg",
     "static/media/5-products-6.jpg": "/alex-metal/static/media/5-products-6.c4f597660515e3a1e187.jpg",
     "static/media/2-actions-3.jpg": "/alex-metal/static/media/2-actions-3.9f8d1991e3d2d0cbbb4d.jpg",
-    "static/media/6-partners.jpg": "/alex-metal/static/media/6-partners.9f8d1991e3d2d0cbbb4d.jpg",
     "static/media/5-products-4.jpg": "/alex-metal/static/media/5-products-4.e65318a9226f5bf27b84.jpg",
     "static/media/5-products-1.jpg": "/alex-metal/static/media/5-products-1.2553d3e568322f2123f3.jpg",
     "static/media/3-info.jpg": "/alex-metal/static/media/3-info.af71b1139b609d5d89be.jpg",
@@ -20,7 +20,17 @@
     "static/media/5-products-5.jpg": "/alex-metal/static/media/5-products-5.16602727a7f80847f82e.jpg",
     "static/media/5-products-8.jpg": "/alex-metal/static/media/5-products-8.9151350cd0a7c4a1d75d.jpg",
     "static/media/5-products-7.jpg": "/alex-metal/static/media/5-products-7.e5e5e77b7c2c559ee627.jpg",
+    "static/media/13-mn.jpg": "/alex-metal/static/media/13-mn.19b041158f3f4b4827e6.jpg",
+    "static/media/1-sber.png": "/alex-metal/static/media/1-sber.60f7ac4f1582b5542ffa.png",
+    "static/media/5-tmk2.png": "/alex-metal/static/media/5-tmk2.85e9cd3b902d08a7672d.png",
+    "static/media/6-nlmk.png": "/alex-metal/static/media/6-nlmk.f3f2aa18ac91bdb66a8e.png",
+    "static/media/9-amet.png": "/alex-metal/static/media/9-amet.ab1e1e0e1d31a956f124.png",
+    "static/media/10-etz.png": "/alex-metal/static/media/10-etz.113f3f86bea63bd057ce.png",
+    "static/media/3-mechel.png": "/alex-metal/static/media/3-mechel.f10eda479a5cbff47932.png",
     "static/media/8347700-ai.png": "/alex-metal/static/media/8347700-ai.466c860057e89cd22dd1.png",
+    "static/media/8-mmk.png": "/alex-metal/static/media/8-mmk.3ca826f7abf1709fd09b.png",
+    "static/media/2-vtb-24.png": "/alex-metal/static/media/2-vtb-24.2a444d6c383c84a5e92e.png",
+    "static/media/11-evraz.png": "/alex-metal/static/media/11-evraz.2b05ae00f4e82bd6f7fc.png",
     "static/media/8347700-ai_cut.png": "/alex-metal/static/media/8347700-ai_cut.e14c50599b94fef0732c.png",
     "static/media/customer.svg": "/alex-metal/static/media/customer.d8d4aee697a56700346ddeb96dbd083d.svg",
     "static/media/slick.svg": "/alex-metal/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -31,12 +41,12 @@
     "static/media/time.svg": "/alex-metal/static/media/time.aed4104fb2e3369951340bf71dad01c7.svg",
     "static/media/slick.woff": "/alex-metal/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/alex-metal/index.html",
-    "main.d36e45fe.css.map": "/alex-metal/static/css/main.d36e45fe.css.map",
-    "main.67b9c99b.js.map": "/alex-metal/static/js/main.67b9c99b.js.map",
+    "main.919ef90a.css.map": "/alex-metal/static/css/main.919ef90a.css.map",
+    "main.ba96fd09.js.map": "/alex-metal/static/js/main.ba96fd09.js.map",
     "787.74fd1089.chunk.js.map": "/alex-metal/static/js/787.74fd1089.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d36e45fe.css",
-    "static/js/main.67b9c99b.js"
+    "static/css/main.919ef90a.css",
+    "static/js/main.ba96fd09.js"
   ]
 }
