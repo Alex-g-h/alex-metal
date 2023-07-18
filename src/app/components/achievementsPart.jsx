@@ -3,7 +3,10 @@ import Achievement from "../common/achievement";
 
 const AchievementsPart = () => {
   return (
-    <div className="achievements-background achievements">
+    <div
+      id="part_achievements"
+      className="achievements-background achievements"
+    >
       <Achievement
         text="15+ лет на рынке"
         icon={require("../../assets/icons/time.svg").default}

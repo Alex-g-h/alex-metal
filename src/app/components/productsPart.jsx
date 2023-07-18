@@ -44,7 +44,10 @@ const ProductsPart = () => {
 
   return (
     // <div className="products-background products">
-    <div className="products">
+    <div
+      id="part_products"
+      className="products"
+    >
       <div className="products__caption">Продукция</div>
       <div className="products__slider">
         <Slider {...settings}>

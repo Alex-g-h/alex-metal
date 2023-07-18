@@ -40,7 +40,10 @@ footer .container {
 
 .footer_logo {
   display: flex;
+  flex-direction: column;
   text-transform: uppercase;
+  align-items: start;
+  margin-top: 1em;
 }
 
 .footer_logo_img {
@@ -49,13 +52,14 @@ footer .container {
   width: 80px;
   min-width: 80px;
   height: 140px;
-  background: url(../../assets/logos/company/8347700-ai.png);
+  background: url(../../assets/logos/company/logo-rgb_blue.png);
 }
 
 .footer_logo_text {
-  margin-top: 6px;
+  margin-top: 1.75em;
   line-height: 26px;
   color: #fff;
+  text-align: start;
 }
 
 .footer_logo p {
@@ -69,6 +73,7 @@ footer .container {
 .footer_copyright {
   position: relative;
   padding-left: 30px;
+  color: #fff;
 }
 
 .footer_copyright span:after {
@@ -95,6 +100,7 @@ footer .container {
   min-width: 312px;
   max-width: 312px;
   margin-top: -4px;
+  margin-bottom: 1em;
 }
 
 .footer_nav nav {}

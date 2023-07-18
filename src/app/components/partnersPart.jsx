@@ -3,7 +3,10 @@ import Partner from "../common/partner";
 
 const PartnersPart = () => {
   return (
-    <div className="partners-background">
+    <div
+      id="part_partners"
+      className="partners-background"
+    >
       <div className="partners">
         <div className="partners__text">Партнёры</div>
         <div className="partners__items">

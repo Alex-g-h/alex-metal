@@ -13,7 +13,10 @@ const ContactsPart = () => {
 
   return (
     // <div className="contacts contacts-background">
-    <div className="contacts contacts__img">
+    <div
+      id="part_contacts"
+      className="contacts contacts__img"
+    >
       <div className="contacts">
         <div className="contacts__caption">Контакты</div>
         <div className="contacts__container">

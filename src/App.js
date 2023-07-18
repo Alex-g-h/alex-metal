@@ -20,7 +20,7 @@ function App() {
       <ProductsPart />
       <PartnersPart />
       <FormPart />
-      <MapPart />
+      {/* <MapPart /> */}
       <ContactsPart />
       <FooterPart />
     </div>

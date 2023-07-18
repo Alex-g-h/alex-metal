@@ -3,7 +3,7 @@ import React from "react";
 const InfoPart = () => {
   return (
     // <div className="info-background">
-    <div>
+    <div id="part_info">
       <div className="main_about main_about_flex">
         <div className="container">
           {/* <div className="main_about_order"> */}

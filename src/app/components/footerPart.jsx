@@ -7,20 +7,16 @@ const FooterPart = () => {
       <div className="container">
         <div className="footer_left">
           <div className="footer_logo">
-            {/* <div class="footer_logo_img"></div> */}
             <img
               className="company-logo"
-              src={require("../../assets/logos/company/8347700-ai_cut.png")}
+              src={require("../../assets/logos/company/logo-rgb_blue.png")}
               alt=""
-              width="150px"
+              width="50%"
             />
             <div className="footer_logo_text">
               <p>
                 Все виды металлопроката
                 <br /> от ведущих производителей
-              </p>
-              <p>
-                <b>СтальИнвест</b>
               </p>
             </div>
           </div>
@@ -33,31 +29,22 @@ const FooterPart = () => {
             <nav>
               <ul>
                 <li>
-                  <a href="catalog/index.htm">Продукция</a>
-                  <ul>
-                    <li>
-                      <a href="catalog/sortovoy-prokat/index.htm">
-                        Сортовой прокат
-                      </a>
-                    </li>
-                    <li>
-                      <a href="catalog/listovoy-prokat/index.htm">
-                        Листовой прокат
-                      </a>
-                    </li>
-                    <li>
-                      <a href="catalog/truby/index.htm">Трубы</a>
-                    </li>
-                  </ul>
+                  <a href="#part_actions">Услуги</a>
                 </li>
                 <li>
-                  <a href="standards/index.htm">Справочники и ГОСТы</a>
+                  <a href="#part_info">О компании</a>
                 </li>
                 <li>
-                  <a href="documents/index.htm">Документы</a>
+                  <a href="#part_achievements">Достижения</a>
                 </li>
                 <li>
-                  <a href="rekvizity.php.html">Реквизиты</a>
+                  <a href="#part_products">Продукция</a>
+                </li>
+                <li>
+                  <a href="#part_partners">Партнеры</a>
+                </li>
+                <li>
+                  <a href="#part_contacts">Контакты</a>
                 </li>
               </ul>
             </nav>

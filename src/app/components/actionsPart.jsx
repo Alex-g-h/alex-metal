@@ -3,7 +3,7 @@ import React from "react";
 const ActionsPart = () => {
   return (
     // <div className="actions-background">
-    <div>
+    <div id="part_actions">
       <div className="main_wedo">
         <div className="container">
           <div className="main_wedo_row">
