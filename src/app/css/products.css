@@ -3,6 +3,14 @@
   width: 100%;
 }
 
+.products__caption {
+  text-align: left;
+  font-size: 1.75em;
+  margin-left: 1em;
+  margin-bottom: 1.5em;
+  text-transform: uppercase;
+}
+
 .products__slider {
     width: 100%;
 }
