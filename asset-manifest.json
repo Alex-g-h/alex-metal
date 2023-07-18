@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/alex-metal/static/css/main.0c1dbc77.css",
+    "main.css": "/alex-metal/static/css/main.a25991a1.css",
     "main.js": "/alex-metal/static/js/main.2c231c26.js",
     "static/js/787.74fd1089.chunk.js": "/alex-metal/static/js/787.74fd1089.chunk.js",
     "static/media/office.mp4": "/alex-metal/static/media/office.652ce355a723c0119b4d.mp4",
@@ -41,12 +41,12 @@
     "static/media/time.svg": "/alex-metal/static/media/time.aed4104fb2e3369951340bf71dad01c7.svg",
     "static/media/slick.woff": "/alex-metal/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/alex-metal/index.html",
-    "main.0c1dbc77.css.map": "/alex-metal/static/css/main.0c1dbc77.css.map",
+    "main.a25991a1.css.map": "/alex-metal/static/css/main.a25991a1.css.map",
     "main.2c231c26.js.map": "/alex-metal/static/js/main.2c231c26.js.map",
     "787.74fd1089.chunk.js.map": "/alex-metal/static/js/787.74fd1089.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c1dbc77.css",
+    "static/css/main.a25991a1.css",
     "static/js/main.2c231c26.js"
   ]
 }
