@@ -31,13 +31,15 @@ const CompanyPart = () => {
             </div>
           </div>
           <div className="main_logo">
-            <div className="main_logo_img"></div>
-            <div className="main_logo_text">
-              <div className="main_logo_b">
-                Все виды
-                <br /> металлопроката
+            <div className="main__logo__container">
+              <div className="main_logo_img"></div>
+              <div className="main_logo_text">
+                <div className="main_logo_b">
+                  Все виды
+                  <br /> металлопроката
+                </div>
+                <div className="main_logo_s">от ведущих производителей</div>
               </div>
-              <div className="main_logo_s">от ведущих производителей</div>
             </div>
           </div>
           <video
