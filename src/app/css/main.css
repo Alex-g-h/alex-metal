@@ -451,21 +451,6 @@ html {
     letter-spacing: 2px;
   }
 
-  .main_catalog:before {
-    width: 159px;
-    top: 0;
-    height: 655px;
-  }
-
-  .main_catalog:after {
-    width: 210px;
-    top: 0;
-    height: 655px;
-  }
-
-  .main_news:after {
-    display: none;
-  }
 }
 
 /*------------⚞	media 1300	⚟------------*/
@@ -990,8 +975,9 @@ html {
 
   .main_logo_img {
     /* background: url(../../../../../../local/templates/imgmet/img/main_logo.svg); */
-    background-size: cover;
-    width: 72px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 240px;
     height: 123px;
     margin-bottom: 30px;
   }
@@ -1002,7 +988,7 @@ html {
   }
 
   .main_logo_b {
-    font-family: 'GothamProRegular';
+    /* font-family: 'GothamProRegular'; */
     font-size: 21px;
     top: 0;
     margin-bottom: 16px;
