@@ -68,51 +68,6 @@ header:after {
 
 .header_left {}
 
-.header_nav {
-  display: flex;
-  letter-spacing: 3px;
-}
-
-.header_menu {
-  position: relative;
-  height: 36px;
-  display: flex;
-  cursor: pointer;
-  align-items: center;
-  padding-left: 60px;
-  width: 116px;
-  font-weight: lighter;
-}
-
-.header_menu:before,
-.header_menu:after {
-  position: absolute;
-  height: 4px;
-  left: 0;
-  background: #fff;
-  content: '';
-  display: block;
-  transition: width 0.5s ease;
-}
-
-.header_menu:before {
-  width: 36px;
-  top: 10px;
-}
-
-.header_menu:after {
-  width: 20px;
-  bottom: 10px;
-}
-
-.header_menu:hover:before {
-  width: 29px;
-}
-
-.header_menu:hover:after {
-  width: 36px;
-}
-
 .header_desc {
   opacity: 0.6;
   font-size: 12px;
@@ -223,14 +178,4 @@ header:after {
   text-transform: uppercase;
   font-weight: lighter;
   text-align: start;
-}
-
-.header_down {
-  /* background: url(../../../../../../local/templates/imgmet/img/ico_down.png); */
-  width: 20px;
-  height: 32px;
-  position: absolute;
-  z-index: 2;
-  bottom: 50px;
-  right: 50px;
 }
