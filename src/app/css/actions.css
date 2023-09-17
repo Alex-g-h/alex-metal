@@ -4,13 +4,14 @@
 
 .main_wedo_row {
   display: flex;
-  margin: 0 -33px;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .main_wedo_item {
-  width: 33.33%;
   text-align: center;
-  padding: 0 33px;
+  padding: 15px;
 }
 
 .main_wedo_img {
