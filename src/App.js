@@ -19,8 +19,7 @@ function App() {
       <AchievementsPart />
       <ProductsPart />
       <PartnersPart />
-      <FormPart />
-      {/* <MapPart /> */}
+      {/* <FormPart /> */}
       <ContactsPart />
       <FooterPart />
     </div>

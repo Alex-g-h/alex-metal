@@ -37,7 +37,7 @@
 
 .contacts__address {
   color: #fafafa;
-  margin-left: 2em;
+  margin: 0 2em;
   text-transform: uppercase;
 }
 
