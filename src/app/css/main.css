@@ -878,13 +878,13 @@ html {
   }
 
   .main_about_title {
-    font-family: 'GothamProBold';
+    /* font-family: 'GothamProBold'; */
     margin: 0 0 22px;
     font-size: 16px;
   }
 
   .main_about_text {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 30px;
   }
 
