@@ -112,8 +112,6 @@ body {
 }
 
 .achievements-background {
-  /* height: auto; */
-  height: 687px;
   max-height: 100%;
   background-image: url("./assets/images/backgrounds/4-achievements.jpg");
   background-position: center;

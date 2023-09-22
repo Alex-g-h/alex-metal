@@ -8,6 +8,7 @@
   justify-items: center;
   justify-content: space-evenly;
   align-items: center;
+  padding: 5em 0;
 }
 
 .achievement {
@@ -34,4 +35,26 @@
   font-weight: bold;
   overflow-wrap: break-word;
   width: var(--width);
+}
+
+@media (max-width:768px) {
+  .achievement-text {
+    font-size: 1.3em;
+    font-weight: normal;
+  }
+
+  .achievement-icon {
+    width: calc(var(--width) * 0.7);
+  }
+}
+
+@media (max-width:576px) {
+  .achievement-text {
+    font-size: 1em;
+    font-weight: normal;
+  }
+
+  .achievement-icon {
+    width: calc(var(--width) * 0.5);
+  }
 }
