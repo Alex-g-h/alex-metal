@@ -12,20 +12,26 @@
 }
 
 .achievement {
-  margin: 20 25;
+  padding: 2em 0;
   display: flex;
   flex-direction: column;
-  justify-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+
 }
 
 .achievement-icon {
   width: var(--width);
+  height: var(--width);
 }
 
 .achievement-icon :hover {
   font-size: 1.5em;
+}
+
+.achievement-img {
+  height: 100%;
+  width: auto;
 }
 
 .achievement-text {
@@ -35,6 +41,7 @@
   font-weight: bold;
   overflow-wrap: break-word;
   width: var(--width);
+  padding-top: 0.3em;
 }
 
 @media (max-width:768px) {
@@ -45,6 +52,7 @@
 
   .achievement-icon {
     width: calc(var(--width) * 0.7);
+    height: calc(var(--width) * 0.7);
   }
 }
 
@@ -56,5 +64,6 @@
 
   .achievement-icon {
     width: calc(var(--width) * 0.5);
+    height: calc(var(--width) * 0.5);
   }
 }

@@ -5,6 +5,7 @@ const Achievement = ({ text, icon }) => {
     <div className="achievement">
       <div className="achievement-icon">
         <img
+          className="achievement-img"
           src={icon}
           alt=""
         />

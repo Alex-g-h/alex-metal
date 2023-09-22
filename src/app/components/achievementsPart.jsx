@@ -23,6 +23,10 @@ const AchievementsPart = () => {
         text="45+ крупных заказчиков"
         icon={require("../../assets/icons/customer.svg").default}
       />
+      <Achievement
+        text="спец стали для АЭС"
+        icon={require("../../assets/icons/atomic.svg").default}
+      />
     </div>
   );
 };
