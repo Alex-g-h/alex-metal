@@ -1,5 +1,6 @@
 .main_about {
-  background: url("../../assets/images/backgrounds/3-info.jpg") center / cover no-repeat;
+  background: url('../../assets/images/backgrounds/3-info.jpg') center / cover
+    no-repeat;
   text-align: center;
   height: 687px;
   padding-top: 42px;
