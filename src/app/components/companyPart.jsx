@@ -1,8 +1,8 @@
-import React, { useRef } from "react";
-import headerVideo from "../../assets/video/office.mp4";
+import React, { useRef } from 'react'
+import headerVideo from '../../assets/video/office.mp4'
 
 const CompanyPart = () => {
-  const isMuted = useRef(true);
+  const isMuted = useRef(true)
 
   return (
     // <div className="company-background">
@@ -17,17 +17,17 @@ const CompanyPart = () => {
             <div className="header_left"></div>
             <div className="header_right">
               <div className="header_phone">
-                <div>Офис</div>
+                {/* <div>Офис</div> */}
                 <a href="tel:+74732224101">
                   <span>+7 (473) 222-41-01</span>
                 </a>
               </div>
-              <div className="header_phone">
+              {/* <div className="header_phone">
                 <div>Склад</div>
                 <a href="tel:+74732224102">
                   <span>+7 (473) 222-41-02</span>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="main_logo">
@@ -56,7 +56,7 @@ const CompanyPart = () => {
         </header>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default CompanyPart;
+export default CompanyPart
