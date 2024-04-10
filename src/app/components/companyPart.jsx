@@ -47,6 +47,7 @@ const CompanyPart = () => {
             // muted={true}
             autoPlay
             loop
+            playsInline
           >
             <source
               src={headerVideo}
