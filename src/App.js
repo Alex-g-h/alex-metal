@@ -13,14 +13,14 @@ import ProductsPart from './app/components/productsPart'
 function App() {
   return (
     <div className="App">
-      <CompanyPart />
+      {/* <CompanyPart /> */}
       {/* <ActionsPart /> */}
       {/* <InfoPart /> */}
       {/* <AchievementsPart /> */}
       {/* <ProductsPart /> */}
       {/* <PartnersPart /> */}
       {/* <FormPart /> // old comment*/}
-      {/* <ContactsPart /> */}
+      <ContactsPart />
       {/* <FooterPart /> */}
     </div>
   )
