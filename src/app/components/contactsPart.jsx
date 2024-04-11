@@ -53,13 +53,13 @@ const ContactsPart = () => {
               {storehouse.address}
             </a>
           </div>
-          <div className="contacts__phone">
+          {/* <div className="contacts__phone">
             Телефон:
             <a href="tel:+74732224101">
               {' '}
               <span>{storehouse.phone}</span>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="contacts__container">
           <div className="contacts__site">
