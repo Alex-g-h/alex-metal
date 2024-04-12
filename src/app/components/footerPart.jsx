@@ -1,6 +1,8 @@
-import React from "react";
+import React from 'react'
 
 const FooterPart = () => {
+  const currDate = new Date()
+
   return (
     <div className="footer footer-background">
       {/* // <div className="footer"> */}
@@ -9,7 +11,7 @@ const FooterPart = () => {
           <div className="footer_logo">
             <img
               className="company-logo"
-              src={require("../../assets/logos/company/logo-rgb_blue.png")}
+              src={require('../../assets/logos/company/logo-rgb_blue.png')}
               alt=""
               width="50%"
             />
@@ -21,7 +23,7 @@ const FooterPart = () => {
             </div>
           </div>
           <div className="footer_copyright">
-            <span></span> 2023
+            <span></span> {currDate.getFullYear()}
           </div>
         </div>
         <div className="footer_right">
@@ -52,7 +54,7 @@ const FooterPart = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default FooterPart;
+export default FooterPart
