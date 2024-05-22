@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const InfoPart = () => {
   return (
@@ -8,7 +8,7 @@ const InfoPart = () => {
         <div className="container">
           {/* <div className="main_about_order"> */}
           <div className="main_about_title text_shadow">
-            ООО «СтальИнвест» — современная, развивающаяся компания. Является
+            ООО ТД «СтальИнвест» — современная, развивающаяся компания. Является
             активным участником на рынке поставок металлопроката в Черноземье и
             Центральном регионе России.
           </div>
@@ -20,7 +20,7 @@ const InfoPart = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default InfoPart;
+export default InfoPart
