@@ -1341,7 +1341,9 @@ html {
 
 .text_shadow {
   /* color: white; */
-  color: #093399;
+  /* color: #093399; */
+  color: #3e75f4;
+
   /* background-color: white; */
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
