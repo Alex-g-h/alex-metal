@@ -15,8 +15,8 @@ function App() {
     <div className="App">
       {/* <CompanyPart /> */} {/* // [+] */}
       {/* <ActionsPart /> */} {/* // [+] */}
-      <InfoPart />
-      {/* <AchievementsPart /> */}
+      {/* <InfoPart /> */}
+      <AchievementsPart />
       {/* <ProductsPart /> */}
       {/* <PartnersPart /> */}
       {/* <FormPart /> // old comment*/}
