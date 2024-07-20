@@ -1,9 +1,9 @@
-import React from "react";
-import Slider from "react-slick";
-import Product from "../common/product";
+import React from 'react'
+import Slider from 'react-slick'
+import Product from '../common/product'
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 
 const ProductsPart = () => {
   const settings = {
@@ -33,7 +33,7 @@ const ProductsPart = () => {
         },
       },
     ],
-  };
+  }
 
   return (
     // <div className="products-background products">
@@ -46,47 +46,54 @@ const ProductsPart = () => {
         <Slider {...settings}>
           <Product
             key={0}
-            text="Арматура"
-            img={require("../../assets/images/backgrounds/5-products-1.jpg")}
+            text="Труба профильная"
+            img={require('../../assets/images/backgrounds/5-products-0.jpg')}
           />
           <Product
             key={1}
-            text="Труба профильная"
-            img={require("../../assets/images/backgrounds/5-products-2.jpg")}
-          />
-          <Product
-            text="Балка двутавровая"
-            img={require("../../assets/images/backgrounds/5-products-3.jpg")}
+            text="Труба электросварная"
+            img={require('../../assets/images/backgrounds/5-products-1.jpg')}
           />
           <Product
             key={2}
             text="Труба бесшовная"
-            img={require("../../assets/images/backgrounds/5-products-4.jpg")}
+            img={require('../../assets/images/backgrounds/5-products-2.jpg')}
           />
+
           <Product
+            key={3}
             text="Круг стальной"
-            img={require("../../assets/images/backgrounds/5-products-5.jpg")}
+            img={require('../../assets/images/backgrounds/5-products-3.jpg')}
           />
           <Product
-            text="Труба электросварная"
-            img={require("../../assets/images/backgrounds/5-products-6.jpg")}
+            key={4}
+            text="Лист"
+            img={require('../../assets/images/backgrounds/5-products-4.jpg')}
           />
           <Product
-            text="Швеллер стальной"
-            img={require("../../assets/images/backgrounds/5-products-7.jpg")}
+            key={5}
+            text="Арматура"
+            img={require('../../assets/images/backgrounds/5-products-5.jpg')}
           />
           <Product
-            text="Уголок стальной"
-            img={require("../../assets/images/backgrounds/5-products-8.jpg")}
+            key={6}
+            text="Балка двутавровая"
+            img={require('../../assets/images/backgrounds/5-products-6.jpg')}
           />
           <Product
-            text="Лист стальной"
-            img={require("../../assets/images/backgrounds/5-products-9.jpg")}
+            key={7}
+            text="Швеллер"
+            img={require('../../assets/images/backgrounds/5-products-7.jpg')}
+          />
+          <Product
+            key={8}
+            text="Уголок"
+            img={require('../../assets/images/backgrounds/5-products-8.jpg')}
           />
         </Slider>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ProductsPart;
+export default ProductsPart
