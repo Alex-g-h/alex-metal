@@ -17,8 +17,8 @@ function App() {
       {/* <ActionsPart /> */} {/* // [+] */}
       {/* <InfoPart /> */} {/* // [-/+] */}
       {/* <AchievementsPart />  */} {/* // [--] */}
-      <ProductsPart />
-      {/* <PartnersPart /> */}
+      {/* <ProductsPart /> */} {/* // [+] */}
+      <PartnersPart />
       {/* <FormPart /> // old comment*/}
       {/* <ContactsPart /> */} {/* // [+] */}
       {/* <FooterPart /> */}
