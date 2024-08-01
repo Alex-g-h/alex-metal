@@ -36,15 +36,15 @@ const FooterPart = () => {
                 <li>
                   <a href="#part_info">О компании</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#part_achievements">Достижения</a>
-                </li>
+                </li> */}
                 <li>
                   <a href="#part_products">Продукция</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#part_partners">Партнеры</a>
-                </li>
+                </li> */}
                 <li>
                   <a href="#part_contacts">Контакты</a>
                 </li>

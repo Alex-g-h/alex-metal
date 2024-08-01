@@ -18,10 +18,10 @@ function App() {
       {/* <InfoPart /> */} {/* // [-/+] */}
       {/* <AchievementsPart />  */} {/* // [--] */}
       {/* <ProductsPart /> */} {/* // [+] */}
-      <PartnersPart />
+      {/* <PartnersPart /> */} {/* // [--] */}
       {/* <FormPart /> // old comment*/}
       {/* <ContactsPart /> */} {/* // [+] */}
-      {/* <FooterPart /> */}
+      <FooterPart />
     </div>
   )
 }
