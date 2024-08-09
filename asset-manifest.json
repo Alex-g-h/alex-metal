@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alex-metal/static/css/main.997822ca.css",
-    "main.js": "/alex-metal/static/js/main.93c00fa7.js",
+    "main.js": "/alex-metal/static/js/main.aebcc1d2.js",
     "static/js/882.9061a086.chunk.js": "/alex-metal/static/js/882.9061a086.chunk.js",
     "static/media/office.mp4": "/alex-metal/static/media/office.652ce355a723c0119b4d.mp4",
     "static/media/4-achievements.jpg": "/alex-metal/static/media/4-achievements.df735db1bd8eeb67ae7d.jpg",
@@ -43,11 +43,11 @@
     "static/media/slick.woff": "/alex-metal/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/alex-metal/index.html",
     "main.997822ca.css.map": "/alex-metal/static/css/main.997822ca.css.map",
-    "main.93c00fa7.js.map": "/alex-metal/static/js/main.93c00fa7.js.map",
+    "main.aebcc1d2.js.map": "/alex-metal/static/js/main.aebcc1d2.js.map",
     "882.9061a086.chunk.js.map": "/alex-metal/static/js/882.9061a086.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.997822ca.css",
-    "static/js/main.93c00fa7.js"
+    "static/js/main.aebcc1d2.js"
   ]
 }
