@@ -8,7 +8,7 @@ const ContactsPart = () => {
 
   const storehouse = {
     address: '394028, г.Воронеж, ул. Черепанова, д. 3',
-    phone: '+7 (473) 222-41-01',
+    phone: '8-903-654-50-99',
   }
 
   return (
@@ -38,6 +38,16 @@ const ContactsPart = () => {
               {' '}
               <span>{office.phone}</span>
             </a>
+            ,
+            <a href="tel:+74732224102">
+              {' '}
+              <span>+7 (473) 222-41-02</span>
+            </a>
+            ,
+            <a href="tel:+74732224103">
+              {' '}
+              <span>+7 (473) 222-41-03</span>
+            </a>
           </div>
         </div>
         <div className="contacts__container">
@@ -53,13 +63,13 @@ const ContactsPart = () => {
               {storehouse.address}
             </a>
           </div>
-          {/* <div className="contacts__phone">
+          <div className="contacts__phone">
             Телефон:
-            <a href="tel:+74732224101">
+            <a href="tel:+79036545099">
               {' '}
               <span>{storehouse.phone}</span>
             </a>
-          </div> */}
+          </div>
         </div>
         <div className="contacts__container">
           <div className="contacts__site">

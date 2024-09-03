@@ -21,7 +21,7 @@ function App() {
       {/* <PartnersPart /> */} {/* // [--] */}
       {/* <FormPart /> // old comment*/}
       <ContactsPart /> {/* // [+] */}
-      <FooterPart />
+      <FooterPart /> {/* // [+] */}
     </div>
   )
 }

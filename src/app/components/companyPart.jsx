@@ -38,7 +38,7 @@ const CompanyPart = () => {
                   Все виды
                   <br /> металлопроката
                 </div>
-                <div className="main_logo_s">от ведущих производителей</div>
+                {/* <div className="main_logo_s">от ведущих производителей</div> */}
               </div>
             </div>
           </div>

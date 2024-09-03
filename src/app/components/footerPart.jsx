@@ -16,14 +16,11 @@ const FooterPart = () => {
               width="50%"
             />
             <div className="footer_logo_text">
-              <p>
-                Все виды металлопроката
-                <br /> от ведущих производителей
-              </p>
+              <p>Все виды металлопроката</p>
             </div>
           </div>
           <div className="footer_copyright">
-            <span></span> {currDate.getFullYear()}
+            <span></span>2007 - {currDate.getFullYear()}
           </div>
         </div>
         <div className="footer_right">
